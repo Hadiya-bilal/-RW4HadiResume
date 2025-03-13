@@ -1,9 +1,17 @@
-import './MyButton.css'
-export default function MyButton() {
-  return (
-    <div>
-      <button>I am button</button>
+import React from 'react';
+import './styles/HadiLanguages.css';
 
-    </div>
-  )
-}
+const HadiLanguages = ({ hadiLanguages }) => {
+  return (
+    <section className="hadi-languages">
+      <h2>Languages</h2>
+      <ul>
+        {hadiLanguages.map((lang, index) => (
+          <li key={index}>{lang}</li>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+export default HadiLanguages;

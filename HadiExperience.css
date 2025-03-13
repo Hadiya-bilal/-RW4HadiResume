@@ -1,3 +1,12 @@
-.buttonColor {
-    color: red;
-}
+.hadi-experience ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hadi-experience li {
+    margin-bottom: 10px;
+  }
+  
+  .hadi-experience strong {
+    color: #333;
+  }

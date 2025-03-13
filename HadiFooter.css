@@ -1,3 +1,14 @@
-.buttonColor {
-    color: red;
-}
+.hadi-footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .hadi-footer p {
+    margin: 0;
+    font-size: 0.9em;
+  }

@@ -1,0 +1,12 @@
+.hadi-references ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hadi-references li {
+  margin-bottom: 10px;
+}
+
+.hadi-references strong {
+  color: #333;
+}

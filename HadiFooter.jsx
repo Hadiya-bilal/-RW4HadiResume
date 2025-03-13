@@ -1,9 +1,12 @@
-import './MyButton.css'
-export default function MyButton() {
-  return (
-    <div>
-      <button>I am button</button>
+import React from 'react';
+import './styles/HadiFooter.css';
 
-    </div>
-  )
-}
+const HadiFooter = () => {
+  return (
+    <footer className="hadi-footer">
+      <p>&copy; 2023 Hadi's Resume Builder. All rights reserved.</p>
+    </footer>
+  );
+};
+
+export default HadiFooter;

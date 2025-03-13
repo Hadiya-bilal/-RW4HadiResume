@@ -1,12 +1,17 @@
-import React from 'react'
- function Information(props) {
+import React from 'react';
+import './styles/HadiSkills.css';
+
+const HadiSkills = ({ hadiSkills }) => {
   return (
-    <div>
-        <p> I am Estere</p>
-        <p>I study HCI</p>
-        <p>Ilive</p>
-      
-    </div>
-  )
-}
-export default Information
+    <section className="hadi-skills">
+      <h2>Skills</h2>
+      <ul>
+        {hadiSkills.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+export default HadiSkills;

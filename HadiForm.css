@@ -1,0 +1,26 @@
+.hadi-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hadi-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .hadi-form input,
+  .hadi-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .hadi-form button {
+    background-color: #61dafb;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
